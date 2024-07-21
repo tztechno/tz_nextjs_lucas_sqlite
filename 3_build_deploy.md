@@ -16,20 +16,29 @@ Input: 46, Result: 4106118243, Time: 30.473171 seconds
 ```
 
 ```
+npm install --save-dev @types/sqlite3
+
 cd vercel_lucas
+npm run dev
+
+http://localhost:3000
+
+http://localhost:3000/lucas-numbers
+
+
 
 git init
-git remote add origin https://github.com/tztechno/vercel_lucas_sqlite.git
+git remote add origin https://github.com/tztechno/tz_nextjs_lucas_sqlite
 git add .
 git commit -m "Session Results"
 git push -u new-remote main
 
-git push -f origin main　強制
+git push -f new-remote main　強制
 
-https://tztechno.github.io/vercel_lucas_sqlite
+https://tztechno.github.io/tz_nextjs_lucas_sqlite
 
 前の関係確認 git remote -v
-新しく追加 git remote add new-remote https://github.com/tztechno/vercel_lucas_sqlite.git
+新しく追加 git remote add new-remote https://github.com/tztechno/tz_nextjs_lucas_sqlite.git
 
 new-remote      https://github.com/tztechno/vercel_lucas_sqlite.git (fetch)
 new-remote      https://github.com/tztechno/vercel_lucas_sqlite.git (push)
