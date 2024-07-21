@@ -30,7 +30,7 @@ http://localhost:3000/lucas-numbers
 git init
 git remote add origin https://github.com/tztechno/tz_nextjs_lucas_sqlite
 git add .
-git commit -m "Session Results"
+git commit -m "set sqlite"
 git push -u new-remote main
 
 git push -f new-remote main　強制
