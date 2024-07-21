@@ -20,13 +20,22 @@ cd vercel_lucas
 
 git init
 git remote add origin https://github.com/tztechno/vercel_lucas_sqlite.git
-git pull
 git add .
 git commit -m "Session Results"
-git push -u origin main
+git push -u new-remote main
 
 git push -f origin main　強制
 
 https://tztechno.github.io/vercel_lucas_sqlite
 
+前の関係確認 git remote -v
+新しく追加 git remote add new-remote https://github.com/tztechno/vercel_lucas_sqlite.git
+
+new-remote      https://github.com/tztechno/vercel_lucas_sqlite.git (fetch)
+new-remote      https://github.com/tztechno/vercel_lucas_sqlite.git (push)
+origin  https://github.com/tztechno/vercel_lucas.git (fetch)
+origin  https://github.com/tztechno/vercel_lucas.git (push)
+
+
+git push new-remote main
 ```
